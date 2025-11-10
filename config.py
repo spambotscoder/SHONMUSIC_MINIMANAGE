@@ -53,7 +53,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 # ----------------------------------------------------------------
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TEAMPURVI/PURVI_MUSIC",
+    "https://github.com/spambotscoder/SHONMUSIC_MINIMANAGE",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv(
@@ -141,13 +141,13 @@ confirmer = {}
 # ------------------------------------------------------------------------
 # ------------------------------------------------------------------------
 START_IMG_URL = getenv(
-    "START_IMG_URL", "https://telegra.ph/file/eb31c20889c5fca9e153f.jpg, https://telegra.ph/file/62a4a5c93f78df95a7d61.jpg, https://telegra.ph/file/af1b9fb2c83194a37c44d.jpg"
+    "START_IMG_URL", "https://files.catbox.moe/bgfaa3.jpg, https://files.catbox.moe/om8z08.jpg, https://files.catbox.moe/pw0xe6.jpg"
 )
 PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://telegra.ph/file/e778c93e89fdb388b214b.mp4"
+    "PING_IMG_URL", "https://files.catbox.moe/0a7opa.mp4"
 )
 PLAYLIST_IMG_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
-STATS_IMG_URL = "https://telegra.ph/file/e778c93e89fdb388b214b.mp4"
+STATS_IMG_URL = "https://files.catbox.moe/0a7opa.mp4"
 TELEGRAM_AUDIO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 TELEGRAM_VIDEO_URL = "https://telegra.ph/file/51cb8a22e65caa4382879.jpg"
 STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
